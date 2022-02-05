@@ -82,7 +82,7 @@ describe("allNumbersAreNegative()", () => {
     expect(scenario).toEqual(true);
   });
 
-  test("it should return `false` if all of the numbers in the array are negative", () => {
+  test("it should return `false` if all of the numbers in the array are NOT negative", () => {
     const scenario = allNumbersAreNegative([-10, 1, -3]);
     expect(scenario).toEqual(false);
   });
